@@ -6,6 +6,7 @@ import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.RestControllerAdvice;
 
 import com.exam.exception.beans.ErrorResponseBean;
+import com.exam.exception.beans.PetStoreClientException;
 
 import lombok.extern.slf4j.Slf4j;
 

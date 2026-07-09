@@ -12,7 +12,7 @@ import org.springframework.web.client.RestTemplate;
 import com.exam.client.IPetStoreClient;
 import com.exam.client.beans.PetStoreRequestClientBean;
 import com.exam.client.beans.PetStoreResponseClientBean;
-import com.exam.exception.PetStoreClientException;
+import com.exam.exception.beans.PetStoreClientException;
 
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
