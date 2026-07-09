@@ -1,0 +1,20 @@
+package com.exam.client.beans;
+
+import java.io.Serializable;
+import java.util.List;
+
+import lombok.Data;
+
+@Data
+public class PetStoreResponseClientBean implements Serializable {
+	
+	private static final long serialVersionUID = -3822664192164982812L;
+	
+	private Long id;
+	private CategoryPetsClientBean category;
+	private String name;
+	private String[] photoUrls;
+	private List<TagPetsClientBean> tags;
+	private String status;
+	
+}
